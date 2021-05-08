@@ -1,0 +1,77 @@
+nav {
+  background: linear-gradient(
+    90deg,
+    #616161,
+    #000000,
+    #000000,
+    #000000,
+    #616161
+  );
+  align-items: center;
+}
+
+.nav-container {
+  border-bottom: 5px solid;
+  border-color: transparent;
+  background: linear-gradient(90deg, #3f5efb, #fc466b);
+  background-clip: border;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.navLogoDiv {
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+}
+
+#navbarLogo {
+  justify-content: center;
+  text-align: center;
+  margin-top: 5px;
+  font-family: Trebuchet MS, Arial, Helvetica;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.gradient-text {
+  margin-top: 5px;
+  font-family: Trebuchet MS, Arial, Helvetica;
+  color: transparent;
+  background-image: linear-gradient(90deg, #3f5efb, #fc466b);
+  background-clip: text;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.gradient-text:hover {
+  margin-top: 5px;
+  font-family: Trebuchet MS, Arial, Helvetica;
+  color: transparent;
+  background-image: linear-gradient(90deg, #3f5efb, #fc466b);
+  background-clip: text;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 400px) {
+  #backAni {
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #backAni {
+    display: none;
+  }
+}

@@ -1,0 +1,10 @@
+#homePageText {
+  color: black;
+}
+
+#homeTitle {
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

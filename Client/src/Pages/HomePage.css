@@ -1,0 +1,105 @@
+#picHolder {
+  position: relative;
+}
+
+#homePic {
+  width: 100%;
+  border-bottom: 5px solid;
+  border-color: white;
+}
+
+#homeText {
+  position: absolute;
+  width: 100%;
+  top: 7%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 3.5vw;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#startBTN {
+  position: absolute;
+  bottom: 7%;
+  right: 3%;
+  width: 25%;
+  height: 17%;
+  font-size: 2vw;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  background: linear-gradient(45deg, #3f5efb, #fc466b);
+  border: 3px solid;
+  background-color: white;
+  border-radius: 8px;
+}
+
+#startBTN:hover {
+  cursor: pointer;
+}
+
+#masterDiv {
+  background-color: black;
+}
+
+#subDiv {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 5px dotted;
+  border-color: white;
+  background: linear-gradient(90deg, #3f5efb, #fc466b);
+  background-clip: border;
+  text-align: center;
+}
+
+#subTitle {
+  color: white;
+  text-align: center;
+}
+
+#subText {
+  color: white;
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
+  text-align: center;
+}
+
+#links {
+  color: white;
+  font-size: 20px;
+}
+
+#line {
+  display: inline-block;
+  width: 100%;
+}
+
+#indivDiv {
+  text-align: center;
+  display: inline-block;
+  padding-top: 50px;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  vertical-align: top;
+}
+
+#linkGroup {
+  display: inline-table;
+  margin: auto;
+}
+
+#indivText {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+#indivText1 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
