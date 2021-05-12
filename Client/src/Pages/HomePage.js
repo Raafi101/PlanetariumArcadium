@@ -88,18 +88,13 @@ function Home() {
             <div id='indivDiv'>
                 <p id='indivText1'>Angeli</p>
                 <div id='linkGroup'>
-                    <p id='indivText'>Website:&nbsp;</p>
-                    <a id='links' href='https://raafi101.pythonanywhere.com/' target='_blank'>raafi101.pythonanywhere.com</a>
-                </div>
-                <br/>
-                <div id='linkGroup'>
                     <p id='indivText'>GitHub:&nbsp;</p>
-                    <a id='links' href='https://github.com/Raafi101' target='_blank'>github.com/Raafi101</a>
+                    <a id='links' href='https://github.com/angelis21' target='_blank'>github.com/angelis21</a>
                 </div>
                 <br/>
                 <div id='linkGroup'>
                     <p id='indivText'>LinkedIn:&nbsp;</p>
-                    <a id='links' href='https://www.linkedin.com/in/raafi101/' target='_blank'>linkedin.com/in/raafi101</a>
+                    <a id='links' href='https://www.linkedin.com/in/angelis21/' target='_blank'>linkedin.com/in/angelis21</a>
                 </div>
             </div>
 
