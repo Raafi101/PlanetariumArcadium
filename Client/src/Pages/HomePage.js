@@ -47,7 +47,7 @@ function Home() {
                 <p id='indivText1'>Raafi</p>
                 <div id='linkGroup'>
                     <p id='indivText'>Website:&nbsp;</p>
-                    <a id='links' href='https://raafi101.pythonanywhere.com/' target='_blank'>raafi101.pythonanywhere.com</a>
+                    <a id='links' href='https://www.raafirahman.com/' target='_blank'>raafirahman.com</a>
                 </div>
                 <br/>
                 <div id='linkGroup'>
