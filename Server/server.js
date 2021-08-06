@@ -7,11 +7,7 @@ const pool = require('./db');
 app.use(cors());
 
 //Routes
-app.get('/', (req, res) => {
-    res.send("I hear you");
-})
-
-app.get('/bodies', async (req, res) => {
+app.get('/?', async (req, res) => {
     try {
         const {name} = req.query;
 
@@ -20,7 +16,8 @@ app.get('/bodies', async (req, res) => {
 
         const bodies = await pool.query("select * from planets where host_name || ' ' || planet_letter ILIKE $1", [`%${name}%`]);
 
-        res.json(bodies.rows);
+        const data = res.json(bodies.rows);
+        res.send(data)
     } catch (error) {
         console.log(error.message);
     }
