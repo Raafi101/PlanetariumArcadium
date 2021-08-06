@@ -5,7 +5,7 @@ const pool = new Pool({
     password: "PostgressPassword",
     host: "http://database-1.cnv6v0f9xbl3.us-east-2.rds.amazonaws.com/",
     port: 5432,
-    database: "AWS"
+    database: "postgres"
 })
 
 module.exports = pool;
