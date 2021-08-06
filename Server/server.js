@@ -7,7 +7,7 @@ const pool = require('./db');
 app.use(cors());
 
 //Routes
-app.get('/?', async (req, res) => {
+app.get('/bodies', async (req, res) => {
     try {
         const {name} = req.query;
 
