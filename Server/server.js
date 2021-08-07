@@ -21,7 +21,9 @@ app.get('/', async (req, res) => {
 })
 
 app.get('/bodies', async (req, res) => {
-    res.send("/bodies")
+
+    //Connect
+    pool.connect();
     
     //Get Query
     const {name} = req.query;
