@@ -16,8 +16,7 @@ app.get('/bodies', async (req, res) => {
 
         const bodies = await pool.query("select * from planets where host_name || ' ' || planet_letter ILIKE $1", [`%${name}%`]);
 
-        const data = res.json(bodies.rows);
-        res.send(data)
+        res.json(bodies.rows);
     } catch (error) {
         console.log(error.message);
     }

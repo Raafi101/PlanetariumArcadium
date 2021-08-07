@@ -9,7 +9,7 @@ function Search() {
     const onSubmitForm = async(e) => {
         e.preventDefault()
         try {
-            const response = await fetch(`http://planetarcade.us-east-2.elasticbeanstalk.com/bodies/?name=${name}`);
+            const response = await fetch(`http://localhost:5000/bodies/?name=${name}`);
 
             const parseResponse = await response.json();
 
