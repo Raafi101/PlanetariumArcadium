@@ -36,7 +36,7 @@ function Canvas(props) {
 
     async function getStarData() {
 
-        const response = await fetch(`http://localhost:5000/bodies/?name=${starName}`);
+        const response = await fetch(`/bodies/?name=${starName}`);
 
         const parseResponse = await response.json();
 
