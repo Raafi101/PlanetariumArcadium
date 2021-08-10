@@ -11,7 +11,7 @@ function Search() {
     const onSubmitForm = async(e) => {
         e.preventDefault()
         try {
-            const response = await fetch(URL, {method: "GET"});
+            const response = await fetch(`/bodies/?name=${name}`, {method: "GET"});
 
             const parseResponse = await response.json();
 
