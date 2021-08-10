@@ -8,11 +8,11 @@ app.use(cors());
 
 //Connection
 const pool = new Pool({
-    user: "postgres",
-    password: "PostgressPassword",
-    host: "database-1.cnv6v0f9xbl3.us-east-2.rds.amazonaws.com",
+    user: "ubuntu",
+    password: "password123",
+    host: "localhost",
     port: 5432,
-    database: "postgres"
+    database: "astronomy"
 })
 
 //Routes

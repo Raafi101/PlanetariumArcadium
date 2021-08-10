@@ -6,10 +6,12 @@ function Search() {
     const [name, setName] = useState("");
     const [bodies, setBodies] = useState([]);
 
+    const URL = process.env.NODE_ENV === 'production' ? `/bodies/?name=${name}` : `http://localhost:5000/bodies/?name=${name}`
+
     const onSubmitForm = async(e) => {
         e.preventDefault()
         try {
-            const response = await fetch(`//planetarcade.us-east-2.elasticbeanstalk.com/bodies/?name=${name}`, {method: "GET"});
+            const response = await fetch(URL, {method: "GET"});
 
             const parseResponse = await response.json();
 
